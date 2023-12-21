@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static',filename='css/login.css') }}">
+{% endblock %}
+
+{% block body %}
+<div id="main-div-login">
+    <h1 id="Login-Tex">Log in</h1>
+    <input class="long-inp" type="email" placeholder="example@example.com"><br>
+    <input class="long-inp" type="password" placeholder="Password"><br>
+    <a id="hyber-log" href="/app">
+        <button id="login-button">Log in</button>
+    </a>
+</div>
+{% endblock %}

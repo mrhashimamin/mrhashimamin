@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static',filename='css/home.css') }}">
+{% endblock %}
+
+{% block body %}
+<div id="home-container">
+    <h2 id="Welcome-message">Welcome to Img-Editor</h2>
+    <div class="site-infograph">
+        <h2 id="Welcome-message-2">What is Img-Editor ?</h2>
+        <h3 class="info-Tex-main">With our site you can simply</h3>
+        <div class="info-Tex-choices">
+            <div id="img-1">
+                <p class="P">EDIT</p>
+                <div class="circle-container">
+                    <img class="circle-img" src="http://127.0.0.1:5500/imgs/editing.webp">
+                </div>
+            </div>
+            <div id="img-2">
+                <p class="P">ADD FILTERS</p>
+                <div class="circle-container">
+                    <img class="circle-img" src="http://127.0.0.1:5500/imgs/filters.jpg">
+                </div>
+            </div>
+            <div id="img-3">
+                <p class="P">RETOUCHING</p>
+                <div class="circle-container">
+                    <img class="circle-img" src="http://127.0.0.1:5500/imgs/retouching.jpg">
+                </div>
+            </div>
+        </div>
+        <h3 class="info-Tex-main">All of this and more in seconds</h3>
+    </div>
+    <div id="home-choices">
+        <a href="/signup"><button id="home-signup">Press here and join our community</button></a>
+        <span id="OR-Tex">OR</span>
+        <a href="/login"><button id="home-signup">Log in</button></a>
+        <span id="OR-Tex">OR</span>
+        <a href="/app"><span id="home-continue">Continue as a guest</span></a>
+    </div>
+</div>
+{% endblock %}

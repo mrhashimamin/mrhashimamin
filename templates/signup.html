@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static',filename='css/signup.css') }}">
+{% endblock %}
+
+{% block body %}
+<div id="main-div-signup">
+    <h1 id="Sign-Tex">Sign up</h1>
+    <input class="names-inp" type="text" placeholder="First name">
+    <input class="names-inp" type="text" placeholder="Last name">
+    <br>
+    <input class="long-inp" type="email" placeholder="example@example.com"><br>
+    <input class="long-inp" type="password" placeholder="Password"><br>
+    <input class="long-inp" type="date" placeholder="Your D.O.B"><br>
+    <select name="Country" id="country-select">
+        <option value="" disabled selected>Country</option>
+        <option value="USA">United States</option>
+        <option value="canada">Canada</option>
+        <option value="eg">Egypt</option>
+        <option value="sa">Saudia Arabia</option>
+    </select><br>
+    <a href="/app"><input type="submit" id="join-sign"></a>
+</div>
+{% endblock %}

@@ -1,0 +1,62 @@
+#main-div-signup {
+    text-align: center;
+}
+
+#Sign-Tex {
+    margin: 10px 0;
+    color: #949494;
+}
+
+.names-inp {
+    min-width: 120px;
+    color: #24008d;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 15%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.long-inp {
+    min-width: 120px;
+    color: #24008d;
+    margin-top: 10px;
+    width: 31%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#country-select {
+    min-width: 120px;
+    color: #24008d;
+    margin-top: 10px;
+    width: 31%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#join-sign {
+    min-width: 120px;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #24008d;
+    border: none;
+    border-radius: 20px;
+    font-family: monospace;
+    cursor: pointer;
+}

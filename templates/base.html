@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+    {% block head %}
+    {% endblock %}
+</head>
+
+<body>
+    <div id="main-div">
+        <hr id="main-hr-0">
+        <div class="logo">
+            <a id="hyber-logo" href="/">
+                <h1 class="logo">Img-Editor</h1>
+            </a>
+            <h2 id="Creator-Det">App.No[1]</h2>
+        </div>
+        {% block body %}
+        {% endblock %}
+        <hr id="main-hr-1">
+        <div id="last-div">
+            <ul id="bottom-list">
+                <li class="last-div-li"><strong>Contact us :</strong></li>
+                <li class="last-div-li"><strong>Phone /</strong> (+20) 128 894 7898</li>
+                <li class="last-div-li"><strong>Mail /</strong> elsayedmhashim@gmail.com</li>
+            </ul>
+            <h3 id="copyrights"><strong>© Designed and coded by :</strong> <a id="hyber-last"
+                    href="https://www.facebook.com/sayed.m.hashim" target="_blank">Sayed M. Hashim</a></h3>
+        </div>
+        <hr id="main-hr-2">
+    </div>
+</body>
+
+</html>

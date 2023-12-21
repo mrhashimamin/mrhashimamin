@@ -1,0 +1,33 @@
+#main-div-login {
+    text-align: center;
+}
+
+#Login-Tex {
+    margin: 10px 0;
+    color: #949494;
+}
+
+
+.long-inp {
+    color: #24008d;
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#login-button {
+    color: #f2f2f2;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #24008d;
+    border: none;
+    border-radius: 20px;
+    font-family: monospace;
+    cursor: pointer;
+}
