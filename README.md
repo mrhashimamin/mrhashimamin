@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @mrhashimamin
-- 👀 I’m interested in cyber security
+- 👀 I’m interested in cybersecurity
 - 🌱 I’m currently learning about web development
 - 📫 How to reach me:
 - facebook.com/sayed.m.hashim
