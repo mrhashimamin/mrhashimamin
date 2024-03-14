@@ -1,10 +1,15 @@
-- 👋 Hi, I’m @mrhashimamin
-- 👀 I’m interested in cybersecurity
-- 🌱 I’m currently learning about web development
-- 📫 How to reach me:
-- facebook.com/sayed.m.hashim
+# Welcome to My GitHub Profile! 👋
 
-<!---
-mrhashimamin/mrhashimamin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## About Me
+Hello there! I'm Sayed M. Hashim, a Cybersecurity passionate about Bug hunting and Pentesting. I love Coding, and I'm constantly exploring new things in the world of Cybersecurity.
+
+## What You'll Find Here
+- 📚 I share code snippets, projects, and resources related to Bug hunting and Pentesting.
+- 🌱 I'm always learning and experimenting with new technologies and concepts.
+- 💬 Feel free to reach out to me for collaborations, questions, or just to say hi!
+
+## Let's Connect!
+- 💼 Interested in collaborating on a project? Let's discuss!
+- 🌟 If you find my work helpful, consider starring some of my repositories!
+
+Thanks for stopping by!
